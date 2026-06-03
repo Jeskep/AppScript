@@ -94,8 +94,8 @@ function enviarEmailAtrasos() {
   try 
   {
       MailApp.sendEmail({
-      to: "gustavo.dieckmann@lifemed.com.br",
-      subject: "Vai trabalhar gordinho",
+      to: "email do colaborador",
+      subject: "Resumo de Atividades",
       htmlBody: _corpoMensagem
       });
 
